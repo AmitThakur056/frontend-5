@@ -2,7 +2,9 @@
   'use strict';
 
   var request = require("request");
-  var helpers = {};
+  var helpers = {};        
+
+  
   /* Public: errorHandler is a middleware that handles your errors
    *
    * Example:
