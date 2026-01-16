@@ -2,7 +2,9 @@
   'use strict';
 
   var request = require("request");
-  var helpers = {};
+  var helpers = {};        
+
+     
   /* Public: errorHandler is a middleware that handles your errors
    *
    * Example:
@@ -10,7 +12,7 @@
    * var app = express();
    * app.use(helpers.errorHandler);
    * */
-
+   
   helpers.errorHandler = function(err, req, res, next) {
     var ret = {
       message: err.message,
